@@ -1,0 +1,73 @@
+
+.master {
+    display: flex;
+    background-color: #B3E521;
+
+    width: 20%;
+    padding: 8px;
+}
+
+.imgFlex {
+    margin-right: 10px;
+    align-self: end;
+}
+
+.imgMessage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.messageFlex {
+    display: flex;
+    position: relative;
+    align-self: center;
+    background-color: #082103;
+    border-radius: 5px 5px 5px 0px;
+    padding: 10px;
+}
+
+.myName {
+    color: #9795BF;
+    margin-bottom: 5px;
+}
+
+.myMessage {
+    color: #6E8276;
+}
+
+.insertFlexTime {
+    align-self: end;
+}
+
+.insertFlexMessage {
+    margin-right: 10px;
+}
+
+.myTime {
+    position: relative;
+    top: 5px;
+    color: #274022;
+}
+
+.messageFlex:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    bottom: 0px;
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-right: 13px solid #082103;
+}
+
+.messageFlex:after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: -14px;
+    width: 14px;
+    height: 15px;
+    background: #B3E521;
+    border-bottom-right-radius: 30px;
+}
