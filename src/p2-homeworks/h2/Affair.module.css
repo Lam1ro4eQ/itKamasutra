@@ -1,0 +1,19 @@
+.someClass {
+
+}
+.mainLLine button {
+    margin-left: 15px;
+}
+.affairName {
+    display: inline-block;
+    margin: 10px 25px;
+    min-width: 100px;
+    text-align: left;
+}
+.affairPriority {
+    display: inline-block;
+    margin: 10px 25px;
+    min-width: 50px;
+    text-align: left;
+}
+
