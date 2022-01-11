@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, ChangeEvent} from 'react'
 import Greeting from './Greeting'
 
 type GreetingContainerPropsType = {
@@ -6,7 +6,7 @@ type GreetingContainerPropsType = {
     addUserCallback: (name: string) => void // need to fix any
 }
 type UserType = {
-    _id: string 
+    _id: string
     name: string
 }
 
@@ -16,17 +16,34 @@ type UserType = {
 // более современный и удобный для про :)
 // уровень локальной логики
 const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUserCallback}) => { // деструктуризация пропсов
-    const [name, setName] = useState<any>('') // need to fix any
-    const [error, setError] = useState<any>('') // need to fix any
+    const [name, setName] = useState<string>('') // need to fix any
+    const [error, setError] = useState<string>('') // need to fix any
+    const setNameCallback = (e: ChangeEvent<HTMLInputElement>) => { // need to fix any
+        const enterName = e.currentTarget.value;
 
-    const setNameCallback = (e: any) => { // need to fix any
-        setName('') // need to fix
+        if (enterName !== "") {
+            setName(enterName); // need to fix
+            error && setError(''); // зануляем ошибку если она там была
+        } else {
+            setName('');
+            setError('name is requared!');
+        }
+        console.log(name)
     }
     const addUser = () => {
-        alert(`Hello  !`) // need to fix
+        const trimmedNewName = name.trim();
+        if (trimmedNewName === "") {
+            setError('name is requared!');
+            return;
+        } else {
+            addUserCallback(trimmedNewName)
+            alert(`Hello ${trimmedNewName} !`); // need to fix
+            setName('');
+            console.log(name)
+        }
     }
 
-    const totalUsers = 0 // need to fix
+    const totalUsers = users.length // need to fix
 
     return (
         <Greeting
