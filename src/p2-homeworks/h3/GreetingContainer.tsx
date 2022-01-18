@@ -1,4 +1,4 @@
-import React, {useState, ChangeEvent} from 'react'
+import React, {useState, ChangeEvent, KeyboardEvent} from 'react'
 import Greeting from './Greeting'
 
 type GreetingContainerPropsType = {
@@ -21,25 +21,31 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
     const setNameCallback = (e: ChangeEvent<HTMLInputElement>) => { // need to fix any
         const enterName = e.currentTarget.value;
 
-        if (enterName !== "") {
+        if (enterName !== "" ) {
             setName(enterName); // need to fix
             error && setError(''); // зануляем ошибку если она там была
         } else {
             setName('');
-            setError('name is requared!');
+            setError('name is requared!111');
         }
-        console.log(name)
     }
     const addUser = () => {
         const trimmedNewName = name.trim();
         if (trimmedNewName === "") {
-            setError('name is requared!');
+            setError('name is requared!!');
             return;
         } else {
             addUserCallback(trimmedNewName)
             alert(`Hello ${trimmedNewName} !`); // need to fix
             setName('');
-            console.log(name)
+        }
+    }
+
+    const onEnter = (e: KeyboardEvent<HTMLInputElement>) => {
+        if (e.key === "Enter" && name) {
+            addUserCallback(name.trim());
+            alert(`Hello ${name.trim()} !`);
+            setName('');
         }
     }
 
@@ -49,6 +55,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
         <Greeting
             name={name}
             setNameCallback={setNameCallback}
+            onEnter={onEnter}
             addUser={addUser}
             error={error}
             totalUsers={totalUsers}
