@@ -20,13 +20,11 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
     const [error, setError] = useState<string>('') // need to fix any
     const setNameCallback = (e: ChangeEvent<HTMLInputElement>) => { // need to fix any
         const enterName = e.currentTarget.value;
-
-        if (enterName !== "" ) {
+        if (enterName !== "") {
             setName(enterName); // need to fix
             error && setError(''); // зануляем ошибку если она там была
         } else {
             setName('');
-            setError('name is requared!111');
         }
     }
     const addUser = () => {
@@ -46,6 +44,8 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
             addUserCallback(name.trim());
             alert(`Hello ${name.trim()} !`);
             setName('');
+        } else {
+            setError('name is requared!!');
         }
     }
 
