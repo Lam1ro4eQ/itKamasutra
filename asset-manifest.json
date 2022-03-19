@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/itKamasutraIgnat/static/css/main.7a7bf007.chunk.css",
+    "main.js": "/itKamasutraIgnat/static/js/main.3721596c.chunk.js",
+    "main.js.map": "/itKamasutraIgnat/static/js/main.3721596c.chunk.js.map",
+    "runtime-main.js": "/itKamasutraIgnat/static/js/runtime-main.64e2becd.js",
+    "runtime-main.js.map": "/itKamasutraIgnat/static/js/runtime-main.64e2becd.js.map",
+    "static/js/2.d0f49037.chunk.js": "/itKamasutraIgnat/static/js/2.d0f49037.chunk.js",
+    "static/js/2.d0f49037.chunk.js.map": "/itKamasutraIgnat/static/js/2.d0f49037.chunk.js.map",
+    "index.html": "/itKamasutraIgnat/index.html",
+    "static/css/main.7a7bf007.chunk.css.map": "/itKamasutraIgnat/static/css/main.7a7bf007.chunk.css.map",
+    "static/js/2.d0f49037.chunk.js.LICENSE.txt": "/itKamasutraIgnat/static/js/2.d0f49037.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.64e2becd.js",
+    "static/js/2.d0f49037.chunk.js",
+    "static/css/main.7a7bf007.chunk.css",
+    "static/js/main.3721596c.chunk.js"
+  ]
+}
