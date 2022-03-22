@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import n from './Header.nodule.css'
+import n from '.'
 
 
 function Header() {
