@@ -1,5 +1,5 @@
 import React from 'react'
-import {HashRouter, Switch, Route, Redirect} from "react-router-dom";
+
 
 
 export const PATH = {

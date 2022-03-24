@@ -1,5 +1,8 @@
-nav {
+.nav {
     grid-area: n;
     background-color: burlywood;
     padding: 15px;
+}
+.item {
+    color: gold;
 }
