@@ -7,9 +7,10 @@
     <list default="true" id="c87c91ee-a29e-4685-88f0-639efb88d8e1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5-rrd-v6/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5-rrd-v6/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5-rrd-v6/HW5.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5-rrd-v6/HW5.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5-rrd-v6/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5-rrd-v6/Header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5-rrd-v6/Pages.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5-rrd-v6/Pages.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/Routes.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/p2-homeworks/h5-rrd-v6/pages" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -65,6 +66,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Documents\Ignat\tasks_from_ignat\src\p2-homeworks\h5-rrd-v6\pages" />
       <recent name="C:\Users\admin\Documents\Ignat\tasks_from_ignat\src\p2-homeworks\h2" />
     </key>
   </component>
@@ -181,6 +183,7 @@
       <workItem from="1647873060663" duration="1772000" />
       <workItem from="1647956311509" duration="1876000" />
       <workItem from="1648113936562" duration="2390000" />
+      <workItem from="1648470471005" duration="6557000" />
     </task>
     <servers />
   </component>
