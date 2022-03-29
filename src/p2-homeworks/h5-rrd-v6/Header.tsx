@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import n from './Header.module.css'
-
+import { PATH } from './Pages'
 
 
 function Header() {
@@ -9,13 +9,13 @@ function Header() {
         <div>
             <nav className={n.nav}>
                 <div className={n.item}>
-                    <NavLink to='/PreJunior'>PreJunior</NavLink>
+                    <NavLink to={PATH.PRE_JUNIOR}>PreJunior</NavLink>
                 </div>
                 <div className={n.item}>
-                    <NavLink to='/Junior'>Junior</NavLink>
+                    <NavLink to={PATH.JUNIOR}>Junior</NavLink>
                 </div>
                 <div className={n.item}>
-                    <NavLink to='/JuniorPlus'>JuniorPlus</NavLink>
+                    <NavLink to={PATH.JUNIOR_PLUS}>JuniorPlus</NavLink>
                 </div>
             </nav>
         </div>

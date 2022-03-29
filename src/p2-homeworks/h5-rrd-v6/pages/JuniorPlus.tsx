@@ -4,7 +4,7 @@ import React from 'react'
 function JuniorPlus() {
     return (
         <div>
-           <h1>Junior</h1>
+            <h1>JuniorPlus</h1>
 
         </div>
     )
