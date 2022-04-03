@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/itKamasutraIgnat/static/css/main.cc9c5bae.chunk.css",
-    "main.js": "/itKamasutraIgnat/static/js/main.a11ee908.chunk.js",
-    "main.js.map": "/itKamasutraIgnat/static/js/main.a11ee908.chunk.js.map",
+    "main.css": "/itKamasutraIgnat/static/css/main.f05d7396.chunk.css",
+    "main.js": "/itKamasutraIgnat/static/js/main.993d1c06.chunk.js",
+    "main.js.map": "/itKamasutraIgnat/static/js/main.993d1c06.chunk.js.map",
     "runtime-main.js": "/itKamasutraIgnat/static/js/runtime-main.64e2becd.js",
     "runtime-main.js.map": "/itKamasutraIgnat/static/js/runtime-main.64e2becd.js.map",
-    "static/js/2.feb58922.chunk.js": "/itKamasutraIgnat/static/js/2.feb58922.chunk.js",
-    "static/js/2.feb58922.chunk.js.map": "/itKamasutraIgnat/static/js/2.feb58922.chunk.js.map",
+    "static/js/2.844ff35a.chunk.js": "/itKamasutraIgnat/static/js/2.844ff35a.chunk.js",
+    "static/js/2.844ff35a.chunk.js.map": "/itKamasutraIgnat/static/js/2.844ff35a.chunk.js.map",
     "index.html": "/itKamasutraIgnat/index.html",
-    "static/css/main.cc9c5bae.chunk.css.map": "/itKamasutraIgnat/static/css/main.cc9c5bae.chunk.css.map",
-    "static/js/2.feb58922.chunk.js.LICENSE.txt": "/itKamasutraIgnat/static/js/2.feb58922.chunk.js.LICENSE.txt"
+    "static/css/main.f05d7396.chunk.css.map": "/itKamasutraIgnat/static/css/main.f05d7396.chunk.css.map",
+    "static/js/2.844ff35a.chunk.js.LICENSE.txt": "/itKamasutraIgnat/static/js/2.844ff35a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.64e2becd.js",
-    "static/js/2.feb58922.chunk.js",
-    "static/css/main.cc9c5bae.chunk.css",
-    "static/js/main.a11ee908.chunk.js"
+    "static/js/2.844ff35a.chunk.js",
+    "static/css/main.f05d7396.chunk.css",
+    "static/js/main.993d1c06.chunk.js"
   ]
 }
