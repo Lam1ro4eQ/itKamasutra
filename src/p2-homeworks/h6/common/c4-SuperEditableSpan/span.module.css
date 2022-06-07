@@ -1,0 +1,9 @@
+.span {
+    display: block;
+    height: 24px;
+    /*padding-top: 10px;*/
+    margin-left: 25px;
+    cursor: pointer;
+    color: deepskyblue;
+}
+

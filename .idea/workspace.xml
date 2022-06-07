@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c87c91ee-a29e-4685-88f0-639efb88d8e1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5-rrd-v6/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5-rrd-v6/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5-rrd-v6/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5-rrd-v6/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5-rrd-v6/pages/PreJunior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5-rrd-v6/pages/PreJunior.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h6/HW6.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h6/HW6.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h6/common/c4-SuperEditableSpan/SuperEditableSpan.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h6/common/c4-SuperEditableSpan/SuperEditableSpan.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="TypeScript JSX File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -191,7 +189,7 @@
       <workItem from="1648824482690" duration="651000" />
       <workItem from="1648984773808" duration="5368000" />
       <workItem from="1649076821285" duration="112000" />
-      <workItem from="1654575871162" duration="3076000" />
+      <workItem from="1654575871162" duration="7850000" />
     </task>
     <servers />
   </component>
